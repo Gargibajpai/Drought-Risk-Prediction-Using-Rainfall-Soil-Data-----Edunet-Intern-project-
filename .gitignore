@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dll
+.env
+.venv
+.env*/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/
+
+# Model artifacts (allow small final model, ignore checkpoints)
+model/*.ckpt
+model/*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Root CSVs (large originals)
+/*.csv
+
+# Data: ignore full datasets if present locally
+/data/soil_data.csv
+/data/train_timeseries.csv
+/data/test_timeseries.csv
+/data/validation_timeseries.csv
+
+# But keep sample datasets
+!data/sample_soil_data.csv
+!data/sample_train_timeseries.csv
+!data/sample_test_timeseries.csv
+!data/sample_validation_timeseries.csv
+
+# Model files (keep readme)
+model/*.joblib
+!model/README.md
