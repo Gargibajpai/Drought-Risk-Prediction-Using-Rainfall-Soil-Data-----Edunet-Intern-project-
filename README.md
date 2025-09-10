@@ -22,7 +22,7 @@ drought-risk-prediction/
   - `sample_train_timeseries.csv`
   - `sample_test_timeseries.csv`
   - `sample_validation_timeseries.csv`
-- Full datasets are hosted externally (placeholder): [Full Dataset (Google Drive)](https://drive.google.com/placeholder)
+- Full datasets are hosted externally (placeholder):From kaggle
 
 ## Installation
 1. Create and activate a virtual environment (optional).
