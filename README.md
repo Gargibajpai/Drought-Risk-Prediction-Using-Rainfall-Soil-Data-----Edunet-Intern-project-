@@ -57,6 +57,12 @@ python app.py
 ```
 (Current implementation uses Streamlit.)
 
+## Screenshots 
+<img width="1872" height="786" alt="image" src="https://github.com/user-attachments/assets/9eec899f-1983-46aa-a0dc-2c583efa5b23" />
+<img width="1912" height="737" alt="image" src="https://github.com/user-attachments/assets/52477cf0-8e65-423b-86ca-f226bba96561" />
+<img width="1878" height="751" alt="image" src="https://github.com/user-attachments/assets/213cc5c1-31d5-4355-8e21-fd957fa5572c" />
+
+
 ## Notes
 - `.gitignore` excludes large CSVs and artifacts. Only sample data is tracked.
 - If no model is present, the Streamlit app will prompt you to run the training notebook first.
