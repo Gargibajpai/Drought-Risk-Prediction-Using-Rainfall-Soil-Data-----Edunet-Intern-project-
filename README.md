@@ -1,7 +1,7 @@
 # Drought Risk Prediction Using Rainfall and Soil Data
 
 ## Overview
-This project predicts drought risk levels (0–4) using rainfall time series and soil attributes. A RandomForestClassifier is trained after preprocessing a date column into year, month, and day of year.
+This project predicts drought risk levels (0–4) using rainfall time series and soil attributes. A RandomForestClassifier is trained after preprocessing a date column into year, month, and day of year. By applying machine learning techniques, the system classifies regions into drought severity categories, helping in early risk detection and sustainable water management.
 
 ## Repository Structure
 ```
